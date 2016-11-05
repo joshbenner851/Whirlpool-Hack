@@ -1,8 +1,8 @@
 
 from linkedin import linkedin
 
-API_KEY = 'w77gxfe16httta8'
-API_SECRET = 'gaItuhWDnue99f7l'
+API_KEY = ''
+API_SECRET = ''
 RETURN_URL = 'www.spartahack.com'
 
 authentication = linkedin.LinkedInAuthentication(API_KEY, API_SECRET, RETURN_URL, linkedin.PERMISSIONS.enums.values())
